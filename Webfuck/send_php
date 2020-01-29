@@ -1,0 +1,8 @@
+#!/bin/bash
+
+perl -p -e 's/\r$//' < php/unpack.txt > php/unpack
+
+
+tar -C /media/host -cf - php | ssh -i /Amazon-ye-olde-server-keypair.pem ubuntu@52.59.198.163 "sudo tar -C /var/www/html -xvf - && sudo /var/www/html/php/unpack ubuntu" 2>&1 | egrep '^php' -v | egrep '#!/bin/bash.*not' -v
+
+tar  -C /media/host -cf - php | sshpass -p 'Injm&Ajvn' ssh root@192.168.0.102 "tar -C /var/www/html -xvf - && /var/www/html/php/unpack root" 2>&1 | egrep '^php' -v | egrep '#!/bin/bash.*No such file' -v

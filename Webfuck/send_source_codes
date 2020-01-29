@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /media/host/Brainfuck
+
+mkdir Brainfuck
+mkdir ./Brainfuck/clang
+mkdir ./Brainfuck/gcc
+
+cp *.cpp Brainfuck/clang
+cp *.cpp Brainfuck/gcc
+cp *.h Brainfuck/clang
+cp *.h Brainfuck/gcc
+
+tar -cf - Brainfuck | ssh -i /Amazon-ye-olde-server-keypair.pem ubuntu@52.59.198.163 tar -C /home/ubuntu -xvf -
+
+rm -r Brainfuck
+
