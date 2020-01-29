@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <File Include="advanced_page_header.php">
+      <publishTime>04/18/2019 09:35:01</publishTime>
+    </File>
+    <File Include="bf_pipe.php">
+      <publishTime>04/18/2019 09:29:06</publishTime>
+    </File>
+    <File Include="index.php">
+      <publishTime>04/18/2019 09:22:52</publishTime>
+    </File>
+    <File Include="just_do_it.jpg">
+      <publishTime>10/09/2015 09:35:00</publishTime>
+    </File>
+    <File Include="login_page.php">
+      <publishTime>04/18/2019 09:27:31</publishTime>
+    </File>
+    <File Include="new_account.php">
+      <publishTime>04/18/2019 09:35:01</publishTime>
+    </File>
+    <File Include="page_footer.php">
+      <publishTime>04/15/2019 00:11:27</publishTime>
+    </File>
+    <File Include="page_header.php">
+      <publishTime>04/15/2019 00:14:22</publishTime>
+    </File>
+    <File Include="read_password.php">
+      <publishTime>04/17/2019 13:56:03</publishTime>
+    </File>
+    <File Include="signed_in_utils.php">
+      <publishTime>04/18/2019 09:29:06</publishTime>
+    </File>
+    <File Include="styles.css">
+      <publishTime>04/15/2019 00:47:01</publishTime>
+    </File>
+    <File Include="syntax_validation.php">
+      <publishTime>04/18/2019 09:35:01</publishTime>
+    </File>
+    <File Include="unpack.txt">
+      <publishTime>04/17/2019 08:38:56</publishTime>
+    </File>
+    <File Include="user_highscore.php">
+      <publishTime>04/17/2019 23:38:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

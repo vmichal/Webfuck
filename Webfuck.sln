@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Webfuck", "Webfuck\Webfuck.phpproj", "{B4E9CF85-2C5C-42EC-BFC0-89643B01C16E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E9CF85-2C5C-42EC-BFC0-89643B01C16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E9CF85-2C5C-42EC-BFC0-89643B01C16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C98946E-7E14-45D9-90DD-926B1166C28D}
+	EndGlobalSection
+EndGlobal

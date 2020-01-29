@@ -1,0 +1,20 @@
+﻿#!/bin/bash
+
+rm /var/www/html/* 2>&1 | grep -v 'Is a directory'
+
+
+mv /var/www/html/php/* /var/www/html
+
+rm /var/www/html/unpack* 
+
+rmdir /var/www/html/php
+
+
+sudo chgrp -R www-data /var/www/html
+sudo find /var/www/html -type d -exec chmod g+rx {} +
+sudo find /var/www/html -type f -exec chmod g+r {} +
+
+sudo chown -R $1 /var/www/html/
+sudo find /var/www/html -type d -exec chmod u+rwx {} +
+sudo find /var/www/html -type f -exec chmod u+rw {} +
+
